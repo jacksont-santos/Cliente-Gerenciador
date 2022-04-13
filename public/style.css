@@ -1,0 +1,46 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+@font-face {
+    font-family: "proxima";
+    src: url("proxima-nova-light.otf");
+}
+@font-face {
+    font-family: "proximaBold";
+    src: url("proxima-nova-bold.otf");
+}
+body {
+    
+    font-family: proxima;
+    font-size: 14px;
+}
+.error {
+    width: auto;
+    padding: 1rem;
+    background-color: red;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    position: fixed;
+    right:0;
+    bottom: 0vh;
+    margin-bottom: 2rem;
+    z-index: 2;
+    color: white;
+}
+.success {
+    width: auto;
+    padding: 1rem;
+    background-color: rgb(110, 241, 143);
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    position: fixed;
+    right:0;
+    bottom: 0;
+    margin-bottom: 2rem;
+    z-index: 2;
+}

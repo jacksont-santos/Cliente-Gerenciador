@@ -1,0 +1,62 @@
+.containerDetail {
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(143deg, rgba(157,157,156,1) 0%, rgba(0,0,0,1) 100%);
+    font-family: restoqueBold;
+}
+.contentDetail {
+    display: flex;
+    width: 500px;
+    
+}
+.nameDetail {
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: rgb(157, 157, 156);
+    font-family: restoqueBold;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.valueDetail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    color: white;
+    border-bottom: white solid 1px;
+}
+.Control {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.h1detail {
+    color: gold;
+    font-family: restoqueBold;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+}
+.pdetail {
+    color: gold
+}
+.precoFinal {
+    font-size: large;
+}
+.descricao {
+    font-size: larger;
+    color: white;
+}
+.edicao {
+    display: flex;
+    align-items: center;
+}
+.inputDescricao {
+    width: 100%;
+}

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+section#sobre{
+  width: vh;
+  height: 185vh;
+  background: rgb(157,157,156);
+  background: linear-gradient(143deg, rgba(157,157,156,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.bluemarch{
+  margin-left: 6rem;
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 800;  
+}
+
+.bluemarch img {
+  width: 15%;
+  position: relative;
+  top: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-family: 'Baloo Paaji 2', cursive;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.74);
+  height: 33rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: #CD933E;
+  color: #F0E7DE;
+  margin: 0.5rem;
+
+}
+
+.card__name {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+.card__image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid #9d9d9cb0;
+  margin-top: 20px;
+  box-shadow: 0 10px 50px #CD933E;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+  justify-content: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1em;
+  justify-content: center;
+}
+
+.social-icons i {
+  color: #CD933E;
+  position: absolute;
+  top: 1.67em;
+  left: 1.25em;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #9D9D9C, black);
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #CD933E;
+  background: -webkit-linear-gradient(45deg, #CD933E, #F0E7DE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+.description {
+  display: grid;
+  grid-gap: 20px;
+  font-size: 1em;
+  padding: 2rem;
+}
