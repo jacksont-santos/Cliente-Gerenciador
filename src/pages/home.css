@@ -1,0 +1,47 @@
+#home{
+    width: 100%;
+    height: 100vh;
+    background: rgb(157,157,156);
+    background: linear-gradient(143deg, rgba(157,157,156,1) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+}
+#carousel {
+    width: 100%;
+    display: flex;
+}
+.carouselCard {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carouselCard div h2 {
+    font-size: x-large;
+    color: white;
+    margin-bottom: 15px;
+    display: flex;
+}
+.carouselContent h2 div {
+    border: none;
+    border-bottom: solid #008000 4px;
+    border-right: solid #008000 4px;
+    width: 15px;
+    height: 25px;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.login {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#exemplo {
+    position: absolute;
+    bottom: 0;
+    color: green;
+    margin-bottom: 15px;
+}

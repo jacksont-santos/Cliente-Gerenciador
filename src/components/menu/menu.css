@@ -1,0 +1,46 @@
+.Menu {
+    background-color: white;
+    color: black;
+    width: 12%;
+    text-align: center;
+}
+.Menu button {
+    border: none;
+    padding: 1px;
+}
+.Menu button:hover {
+    color: gold;
+    cursor: pointer;
+    background-color: rgb(157,157,156);
+}
+.Menu input {
+    border: solid black 1px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+.Menu select {
+    border: solid black 1px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+.secao {
+    text-align: center;
+    padding-bottom: 3px;
+    color: gold;
+    font-size: 1.5rem;
+}
+.categorias {
+    padding-bottom: 7px;
+    font-size:1.5rem
+}
+.categorias:hover {
+    cursor: pointer;
+    color: gold;
+}
+@media (max-width:768px) {
+    .Menu {
+        width: 10rem;
+    }
+}

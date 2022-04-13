@@ -1,0 +1,117 @@
+.userFormUpdate {
+    margin-top: 15px;
+    padding: 0;
+    color: black;
+    background: linear-gradient(143deg, rgba(157,157,156,1) 0%, white 100%);
+    border-radius: 4%;
+    border: solid 2px gold;
+    font-family: restoqueBold;
+}
+.card-loginUp {
+    padding: 2rem;
+    border: none;
+    width: 100%;
+}
+.card-loginUp h2 {
+    margin-bottom: 20px;
+}
+.cardSide{
+    display: flex;
+    align-items: center;
+}
+.label-float {
+    margin-bottom: 1px;
+    color: black;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.label-float-Pass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    margin-top: 13px;
+}
+.label-float-Pass label {
+    width: 110px;
+    margin-top: 8px;
+    text-align: start;
+}
+.label-float-Pass input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 3px;
+    display: inline-block;
+    border: 2px black;
+    outline: none;
+    font-size: 1rem;
+    transition: all 3s ease-out;
+}
+.label-float label {
+    width: 110px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label-float input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 1px;
+    display: inline-block;
+    border: 2px black;
+    outline: none;
+    font-size: 1rem;
+    transition: all 3s ease-out;
+}
+.label-float select {
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 3px;
+    display: inline-block;
+    border: 2px black;
+    outline: none;
+    font-size: 1rem;
+    transition: all 3s ease-out;
+}
+.setupdate {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+.buttonCancel {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+.setupdate p {
+    width: 85px;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.setupdate p:hover {
+    color: gold;
+    cursor: pointer;
+    background-color: rgb(157,157,156);
+}
+.dataUp {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.formNewUser {
+    background-color: #000000b6;
+    border-radius: 5px;
+    padding: 1rem;
+}

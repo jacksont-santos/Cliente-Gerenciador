@@ -1,0 +1,47 @@
+.liValores {
+    width: 100%;
+    display: flex;
+}
+.valores {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    border:none;
+    width: 93%;
+}
+.product {
+    width: 13%;
+    margin: 5px 3px;
+}
+.name {
+    width: 35%;
+    margin: 5px 3px;
+    overflow: hidden;
+}
+.griffe {
+    width: 17%;
+    margin: 5px 3px;
+}
+.categoria {
+    width: 13%;
+    margin: 5px 3px;
+}
+.data {
+    width: 20%;
+    margin: 5px 3px;
+}
+.detalhes {
+    width: 7%;
+    padding-top: 5px;
+    text-decoration: underline;
+    font-family: restoqueBold;
+    text-align: center;
+}
+.detalhes:hover {
+    cursor: pointer;
+    color: gold;
+}
+.logId {
+    width: 8%;
+    margin: 5px 3px;
+}
