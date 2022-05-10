@@ -1,7 +1,6 @@
 import Login from "./../components/login/form";
 import Navbar1 from "../components/navbar/navbar1";
 import "./home.css";
-import { useState } from "react/cjs/react.development";
 
 const Home = () => {
   if (localStorage.token) {
