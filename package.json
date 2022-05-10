@@ -2,7 +2,7 @@
   "name": "blue-march",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jacksont-santos/Cliente-Gerenciador",
+  "homepage": "https://github.com/jacksont-santos/Cliente-Gerenciador/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
